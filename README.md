@@ -14,13 +14,10 @@ Also add the following framework, if necessary.
 * GLKit.framework
 * Foundation.framework
 
-To build. Header of KaiLib is copied to the project of this app.
-
-# import header
-* import header
+import header
   `#import "KaiLib/KaiLib.h`
 
-* write test code
+write test code
   `KaiLogInf(@"%d", [@"Apple" occurredCount:@"p"]);`
 
 
