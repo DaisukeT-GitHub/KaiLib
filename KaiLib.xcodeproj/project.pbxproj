@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C4F79A119687728006EFE53 /* NSNumber+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F79A019687728006EFE53 /* NSNumber+KaiLib.m */; };
+		7C4F79A21968786A006EFE53 /* NSNumber+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7C4F799F19687728006EFE53 /* NSNumber+KaiLib.h */; };
+		7C74913C1A79E10D000BD879 /* KaiTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDDD0A41A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.xib */; };
+		7C80C04C19A1C2A100513112 /* KaiTableViewStyleValue1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80C04B19A1C2A100513112 /* KaiTableViewStyleValue1Cell.m */; };
+		7C80C04D19A1C30300513112 /* KaiTableViewStyleValue1Cell.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C80C04A19A1C2A100513112 /* KaiTableViewStyleValue1Cell.h */; };
+		7C80C05019A1C44600513112 /* KaiTableViewStyleValue2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80C04F19A1C44600513112 /* KaiTableViewStyleValue2Cell.m */; };
+		7C80C05319A1C4B100513112 /* KaiTableViewStyleSubtitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80C05219A1C4B100513112 /* KaiTableViewStyleSubtitleCell.m */; };
+		7C80C05419A1C51100513112 /* KaiTableViewStyleValue2Cell.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C80C04E19A1C44600513112 /* KaiTableViewStyleValue2Cell.h */; };
+		7C80C05519A1C51100513112 /* KaiTableViewStyleSubtitleCell.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C80C05119A1C4B100513112 /* KaiTableViewStyleSubtitleCell.h */; };
+		7C80C05819A1C5EF00513112 /* KaiTableViewStyleDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C80C05719A1C5EF00513112 /* KaiTableViewStyleDefaultCell.m */; };
+		7C80C05919A1C66100513112 /* KaiTableViewStyleDefaultCell.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C80C05619A1C5EF00513112 /* KaiTableViewStyleDefaultCell.h */; };
+		7C89979E197AA8030066514A /* KaiApplicationDelegateNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C89979D197AA8030066514A /* KaiApplicationDelegateNotificationCenter.m */; };
+		7C93AB31197CFA8700959085 /* KaiViewControllerProtocol.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C93AB30197CF9E700959085 /* KaiViewControllerProtocol.h */; };
+		7C94E387197A771C00F9467E /* KaiArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C94E386197A771C00F9467E /* KaiArchiveManager.m */; };
+		7C94E388197A773E00F9467E /* KaiArchiveManager.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C94E385197A771C00F9467E /* KaiArchiveManager.h */; };
+		7C9E4CF51980B90400A98486 /* KaiTypes.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C9E4CF41980B90400A98486 /* KaiTypes.h */; };
+		7CAE4C83197AEA2B008B1605 /* KaiApplicationDelegateNotificationCenter.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7C89979C197AA8030066514A /* KaiApplicationDelegateNotificationCenter.h */; };
+		7CB979821963D8CE00C5C701 /* KaiCommon.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA78C19615EFC00D8A6DE /* KaiCommon.h */; };
+		7CB979831963D8CE00C5C701 /* KaiDBManager.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA78E19615EFC00D8A6DE /* KaiDBManager.h */; };
+		7CB979841963D8CE00C5C701 /* KaiFPSCountManager.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79019615EFC00D8A6DE /* KaiFPSCountManager.h */; };
+		7CB979851963D8CE00C5C701 /* KaiImage.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79219615EFC00D8A6DE /* KaiImage.h */; };
+		7CB979861963D8CE00C5C701 /* KaiLocale.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79619615EFC00D8A6DE /* KaiLocale.h */; };
+		7CB979871963D8CE00C5C701 /* KaiRandomManager.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79819615EFC00D8A6DE /* KaiRandomManager.h */; };
+		7CB979881963D8CE00C5C701 /* KaiSingleton.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79A19615EFC00D8A6DE /* KaiSingleton.h */; };
+		7CB979891963D8CE00C5C701 /* KaiSysLogManager.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79C19615EFC00D8A6DE /* KaiSysLogManager.h */; };
+		7CB9798A1963D8CE00C5C701 /* KaiThread.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA79E19615EFC00D8A6DE /* KaiThread.h */; };
+		7CB9798B1963D8CE00C5C701 /* KaiWeb.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA7A119615EFC00D8A6DE /* KaiWeb.h */; };
+		7CB979E11963E1C500C5C701 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB979E01963E1C500C5C701 /* CoreData.framework */; };
+		7CB979E31963E1DD00C5C701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB979E21963E1DD00C5C701 /* UIKit.framework */; };
+		7CB979FD1963EB8B00C5C701 /* NSArray+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979EC1963EB8B00C5C701 /* NSArray+KaiLib.m */; };
+		7CB979FE1963EB8B00C5C701 /* NSString+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979EE1963EB8B00C5C701 /* NSString+KaiLib.m */; };
+		7CB979FF1963EB8B00C5C701 /* UIBarItem+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979F01963EB8B00C5C701 /* UIBarItem+KaiLib.m */; };
+		7CB97A001963EB8B00C5C701 /* UIColor+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979F21963EB8B00C5C701 /* UIColor+KaiLib.m */; };
+		7CB97A011963EB8B00C5C701 /* UIImage+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979F41963EB8B00C5C701 /* UIImage+KaiLib.m */; };
+		7CB97A021963EB8B00C5C701 /* UITableView+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979F61963EB8B00C5C701 /* UITableView+KaiLib.m */; };
+		7CB97A031963EB8B00C5C701 /* UIView+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979F81963EB8B00C5C701 /* UIView+KaiLib.m */; };
+		7CB97A041963EB8B00C5C701 /* UIViewController+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979FA1963EB8B00C5C701 /* UIViewController+KaiLib.m */; };
+		7CB97A051963EB8B00C5C701 /* UIWebView+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB979FC1963EB8B00C5C701 /* UIWebView+KaiLib.m */; };
+		7CB97A111963EBA600C5C701 /* KaiGLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB97A081963EBA600C5C701 /* KaiGLCommon.m */; };
+		7CB97A121963EBA600C5C701 /* KaiGLFragmentShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB97A0A1963EBA600C5C701 /* KaiGLFragmentShader.m */; };
+		7CB97A131963EBA600C5C701 /* KaiGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB97A0C1963EBA600C5C701 /* KaiGLShader.m */; };
+		7CB97A141963EBA600C5C701 /* KaiGLShaderInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB97A0E1963EBA600C5C701 /* KaiGLShaderInput.m */; };
+		7CB97A151963EBA600C5C701 /* KaiGLVertexShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB97A101963EBA600C5C701 /* KaiGLVertexShader.m */; };
+		7CB97A161963EBCE00C5C701 /* KaiCategory.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979EA1963EB8B00C5C701 /* KaiCategory.h */; };
+		7CB97A171963EBCE00C5C701 /* NSArray+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979EB1963EB8B00C5C701 /* NSArray+KaiLib.h */; };
+		7CB97A181963EBCE00C5C701 /* NSString+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979ED1963EB8B00C5C701 /* NSString+KaiLib.h */; };
+		7CB97A191963EBCE00C5C701 /* UIBarItem+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979EF1963EB8B00C5C701 /* UIBarItem+KaiLib.h */; };
+		7CB97A1A1963EBCE00C5C701 /* UIColor+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979F11963EB8B00C5C701 /* UIColor+KaiLib.h */; };
+		7CB97A1B1963EBCE00C5C701 /* UIImage+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979F31963EB8B00C5C701 /* UIImage+KaiLib.h */; };
+		7CB97A1C1963EBCE00C5C701 /* UITableView+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979F51963EB8B00C5C701 /* UITableView+KaiLib.h */; };
+		7CB97A1D1963EBCE00C5C701 /* UIView+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979F71963EB8B00C5C701 /* UIView+KaiLib.h */; };
+		7CB97A1E1963EBCE00C5C701 /* UIViewController+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979F91963EB8B00C5C701 /* UIViewController+KaiLib.h */; };
+		7CB97A1F1963EBCE00C5C701 /* UIWebView+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CB979FB1963EB8B00C5C701 /* UIWebView+KaiLib.h */; };
+		7CB97A201963EBE000C5C701 /* KaiGL.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A061963EBA600C5C701 /* KaiGL.h */; };
+		7CB97A211963EBE000C5C701 /* KaiGLCommon.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A071963EBA600C5C701 /* KaiGLCommon.h */; };
+		7CB97A221963EBE000C5C701 /* KaiGLFragmentShader.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A091963EBA600C5C701 /* KaiGLFragmentShader.h */; };
+		7CB97A231963EBE000C5C701 /* KaiGLShader.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A0B1963EBA600C5C701 /* KaiGLShader.h */; };
+		7CB97A241963EBE000C5C701 /* KaiGLShaderInput.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A0D1963EBA600C5C701 /* KaiGLShaderInput.h */; };
+		7CB97A251963EBE000C5C701 /* KaiGLVertexShader.h in Copy Files - OpenGLES headers */ = {isa = PBXBuildFile; fileRef = 7CB97A0F1963EBA600C5C701 /* KaiGLVertexShader.h */; };
+		7CB97A2A1963EFAD00C5C701 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB97A291963EFAD00C5C701 /* QuartzCore.framework */; };
+		7CC3BDD119A87B340084F898 /* UIActivityViewController+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3BDD019A87B340084F898 /* UIActivityViewController+KaiLib.m */; };
+		7CC3BDD419A87E790084F898 /* UIActivityViewController+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CC3BDCF19A87B340084F898 /* UIActivityViewController+KaiLib.h */; };
+		7CCDA75219615DEB00D8A6DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCDA75119615DEB00D8A6DE /* Foundation.framework */; };
+		7CCDA75719615DEB00D8A6DE /* KaiLib.h in Copy Files - KaiLib headers */ = {isa = PBXBuildFile; fileRef = 7CCDA75619615DEB00D8A6DE /* KaiLib.h */; };
+		7CCDA7B919615EFC00D8A6DE /* KaiCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA78D19615EFC00D8A6DE /* KaiCommon.m */; };
+		7CCDA7BA19615EFC00D8A6DE /* KaiDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA78F19615EFC00D8A6DE /* KaiDBManager.m */; };
+		7CCDA7BB19615EFC00D8A6DE /* KaiFPSCountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79119615EFC00D8A6DE /* KaiFPSCountManager.m */; };
+		7CCDA7BC19615EFC00D8A6DE /* KaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79319615EFC00D8A6DE /* KaiImage.m */; };
+		7CCDA7BE19615EFC00D8A6DE /* KaiLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79719615EFC00D8A6DE /* KaiLocale.m */; };
+		7CCDA7BF19615EFC00D8A6DE /* KaiRandomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79919615EFC00D8A6DE /* KaiRandomManager.m */; };
+		7CCDA7C019615EFC00D8A6DE /* KaiSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79B19615EFC00D8A6DE /* KaiSingleton.m */; };
+		7CCDA7C119615EFC00D8A6DE /* KaiSysLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79D19615EFC00D8A6DE /* KaiSysLogManager.m */; };
+		7CCDA7C219615EFC00D8A6DE /* KaiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA79F19615EFC00D8A6DE /* KaiThread.m */; };
+		7CCDA7C319615EFC00D8A6DE /* KaiWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCDA7A219615EFC00D8A6DE /* KaiWeb.m */; };
+		7CCDA7CA19615F3600D8A6DE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCDA7C919615F3600D8A6DE /* GLKit.framework */; };
+		7CD6A5F119A0AA9E00A11645 /* UIFont+KaiLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6A5F019A0AA9E00A11645 /* UIFont+KaiLib.m */; };
+		7CD6A5F219A0AB4D00A11645 /* UIFont+KaiLib.h in Copy Files - Category headers */ = {isa = PBXBuildFile; fileRef = 7CD6A5EF19A0AA9E00A11645 /* UIFont+KaiLib.h */; };
+		7CDDD0A51A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD0A31A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CB979771963D7FB00C5C701 /* Copy Files - Category headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)/KaiCategory";
+			dstSubfolderSpec = 16;
+			files = (
+				7CD6A5F219A0AB4D00A11645 /* UIFont+KaiLib.h in Copy Files - Category headers */,
+				7C4F79A21968786A006EFE53 /* NSNumber+KaiLib.h in Copy Files - Category headers */,
+				7CB97A161963EBCE00C5C701 /* KaiCategory.h in Copy Files - Category headers */,
+				7CB97A171963EBCE00C5C701 /* NSArray+KaiLib.h in Copy Files - Category headers */,
+				7CB97A181963EBCE00C5C701 /* NSString+KaiLib.h in Copy Files - Category headers */,
+				7CB97A191963EBCE00C5C701 /* UIBarItem+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1A1963EBCE00C5C701 /* UIColor+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1B1963EBCE00C5C701 /* UIImage+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1C1963EBCE00C5C701 /* UITableView+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1D1963EBCE00C5C701 /* UIView+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1E1963EBCE00C5C701 /* UIViewController+KaiLib.h in Copy Files - Category headers */,
+				7CB97A1F1963EBCE00C5C701 /* UIWebView+KaiLib.h in Copy Files - Category headers */,
+				7CC3BDD419A87E790084F898 /* UIActivityViewController+KaiLib.h in Copy Files - Category headers */,
+			);
+			name = "Copy Files - Category headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB9798C1963D8DA00C5C701 /* Copy Files - OpenGLES headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)/KaiGL";
+			dstSubfolderSpec = 16;
+			files = (
+				7CB97A201963EBE000C5C701 /* KaiGL.h in Copy Files - OpenGLES headers */,
+				7CB97A211963EBE000C5C701 /* KaiGLCommon.h in Copy Files - OpenGLES headers */,
+				7CB97A221963EBE000C5C701 /* KaiGLFragmentShader.h in Copy Files - OpenGLES headers */,
+				7CB97A231963EBE000C5C701 /* KaiGLShader.h in Copy Files - OpenGLES headers */,
+				7CB97A241963EBE000C5C701 /* KaiGLShaderInput.h in Copy Files - OpenGLES headers */,
+				7CB97A251963EBE000C5C701 /* KaiGLVertexShader.h in Copy Files - OpenGLES headers */,
+			);
+			name = "Copy Files - OpenGLES headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCDA74C19615DEB00D8A6DE /* Copy Files - KaiLib headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7C80C05919A1C66100513112 /* KaiTableViewStyleDefaultCell.h in Copy Files - KaiLib headers */,
+				7C80C05419A1C51100513112 /* KaiTableViewStyleValue2Cell.h in Copy Files - KaiLib headers */,
+				7C80C05519A1C51100513112 /* KaiTableViewStyleSubtitleCell.h in Copy Files - KaiLib headers */,
+				7C80C04D19A1C30300513112 /* KaiTableViewStyleValue1Cell.h in Copy Files - KaiLib headers */,
+				7C9E4CF51980B90400A98486 /* KaiTypes.h in Copy Files - KaiLib headers */,
+				7C93AB31197CFA8700959085 /* KaiViewControllerProtocol.h in Copy Files - KaiLib headers */,
+				7CAE4C83197AEA2B008B1605 /* KaiApplicationDelegateNotificationCenter.h in Copy Files - KaiLib headers */,
+				7C94E388197A773E00F9467E /* KaiArchiveManager.h in Copy Files - KaiLib headers */,
+				7CB979821963D8CE00C5C701 /* KaiCommon.h in Copy Files - KaiLib headers */,
+				7CB979831963D8CE00C5C701 /* KaiDBManager.h in Copy Files - KaiLib headers */,
+				7CB979841963D8CE00C5C701 /* KaiFPSCountManager.h in Copy Files - KaiLib headers */,
+				7CB979851963D8CE00C5C701 /* KaiImage.h in Copy Files - KaiLib headers */,
+				7CB979861963D8CE00C5C701 /* KaiLocale.h in Copy Files - KaiLib headers */,
+				7CB979871963D8CE00C5C701 /* KaiRandomManager.h in Copy Files - KaiLib headers */,
+				7CB979881963D8CE00C5C701 /* KaiSingleton.h in Copy Files - KaiLib headers */,
+				7CB979891963D8CE00C5C701 /* KaiSysLogManager.h in Copy Files - KaiLib headers */,
+				7CB9798A1963D8CE00C5C701 /* KaiThread.h in Copy Files - KaiLib headers */,
+				7CB9798B1963D8CE00C5C701 /* KaiWeb.h in Copy Files - KaiLib headers */,
+				7CCDA75719615DEB00D8A6DE /* KaiLib.h in Copy Files - KaiLib headers */,
+			);
+			name = "Copy Files - KaiLib headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C4F799F19687728006EFE53 /* NSNumber+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+KaiLib.h"; path = "KaiLib/KaiCategory/NSNumber+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7C4F79A019687728006EFE53 /* NSNumber+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+KaiLib.m"; path = "KaiLib/KaiCategory/NSNumber+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7C80C04A19A1C2A100513112 /* KaiTableViewStyleValue1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiTableViewStyleValue1Cell.h; sourceTree = "<group>"; };
+		7C80C04B19A1C2A100513112 /* KaiTableViewStyleValue1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiTableViewStyleValue1Cell.m; sourceTree = "<group>"; };
+		7C80C04E19A1C44600513112 /* KaiTableViewStyleValue2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiTableViewStyleValue2Cell.h; sourceTree = "<group>"; };
+		7C80C04F19A1C44600513112 /* KaiTableViewStyleValue2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiTableViewStyleValue2Cell.m; sourceTree = "<group>"; };
+		7C80C05119A1C4B100513112 /* KaiTableViewStyleSubtitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiTableViewStyleSubtitleCell.h; sourceTree = "<group>"; };
+		7C80C05219A1C4B100513112 /* KaiTableViewStyleSubtitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiTableViewStyleSubtitleCell.m; sourceTree = "<group>"; };
+		7C80C05619A1C5EF00513112 /* KaiTableViewStyleDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiTableViewStyleDefaultCell.h; sourceTree = "<group>"; };
+		7C80C05719A1C5EF00513112 /* KaiTableViewStyleDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiTableViewStyleDefaultCell.m; sourceTree = "<group>"; };
+		7C89979C197AA8030066514A /* KaiApplicationDelegateNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiApplicationDelegateNotificationCenter.h; sourceTree = "<group>"; };
+		7C89979D197AA8030066514A /* KaiApplicationDelegateNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiApplicationDelegateNotificationCenter.m; sourceTree = "<group>"; };
+		7C93AB30197CF9E700959085 /* KaiViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaiViewControllerProtocol.h; sourceTree = "<group>"; };
+		7C94E385197A771C00F9467E /* KaiArchiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiArchiveManager.h; sourceTree = "<group>"; };
+		7C94E386197A771C00F9467E /* KaiArchiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiArchiveManager.m; sourceTree = "<group>"; };
+		7C9E4CF41980B90400A98486 /* KaiTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaiTypes.h; sourceTree = "<group>"; };
+		7CB979E01963E1C500C5C701 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CB979E21963E1DD00C5C701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CB979EA1963EB8B00C5C701 /* KaiCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiCategory.h; path = KaiLib/KaiCategory/KaiCategory.h; sourceTree = SOURCE_ROOT; };
+		7CB979EB1963EB8B00C5C701 /* NSArray+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+KaiLib.h"; path = "KaiLib/KaiCategory/NSArray+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979EC1963EB8B00C5C701 /* NSArray+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+KaiLib.m"; path = "KaiLib/KaiCategory/NSArray+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979ED1963EB8B00C5C701 /* NSString+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+KaiLib.h"; path = "KaiLib/KaiCategory/NSString+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979EE1963EB8B00C5C701 /* NSString+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+KaiLib.m"; path = "KaiLib/KaiCategory/NSString+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979EF1963EB8B00C5C701 /* UIBarItem+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+KaiLib.h"; path = "KaiLib/KaiCategory/UIBarItem+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979F01963EB8B00C5C701 /* UIBarItem+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+KaiLib.m"; path = "KaiLib/KaiCategory/UIBarItem+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979F11963EB8B00C5C701 /* UIColor+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KaiLib.h"; path = "KaiLib/KaiCategory/UIColor+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979F21963EB8B00C5C701 /* UIColor+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KaiLib.m"; path = "KaiLib/KaiCategory/UIColor+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979F31963EB8B00C5C701 /* UIImage+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+KaiLib.h"; path = "KaiLib/KaiCategory/UIImage+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979F41963EB8B00C5C701 /* UIImage+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KaiLib.m"; path = "KaiLib/KaiCategory/UIImage+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979F51963EB8B00C5C701 /* UITableView+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+KaiLib.h"; path = "KaiLib/KaiCategory/UITableView+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979F61963EB8B00C5C701 /* UITableView+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+KaiLib.m"; path = "KaiLib/KaiCategory/UITableView+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979F71963EB8B00C5C701 /* UIView+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+KaiLib.h"; path = "KaiLib/KaiCategory/UIView+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979F81963EB8B00C5C701 /* UIView+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+KaiLib.m"; path = "KaiLib/KaiCategory/UIView+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979F91963EB8B00C5C701 /* UIViewController+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KaiLib.h"; path = "KaiLib/KaiCategory/UIViewController+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979FA1963EB8B00C5C701 /* UIViewController+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KaiLib.m"; path = "KaiLib/KaiCategory/UIViewController+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB979FB1963EB8B00C5C701 /* UIWebView+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+KaiLib.h"; path = "KaiLib/KaiCategory/UIWebView+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CB979FC1963EB8B00C5C701 /* UIWebView+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+KaiLib.m"; path = "KaiLib/KaiCategory/UIWebView+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CB97A061963EBA600C5C701 /* KaiGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGL.h; path = KaiLib/KaiGL/KaiGL.h; sourceTree = SOURCE_ROOT; };
+		7CB97A071963EBA600C5C701 /* KaiGLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGLCommon.h; path = KaiLib/KaiGL/KaiGLCommon.h; sourceTree = SOURCE_ROOT; };
+		7CB97A081963EBA600C5C701 /* KaiGLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KaiGLCommon.m; path = KaiLib/KaiGL/KaiGLCommon.m; sourceTree = SOURCE_ROOT; };
+		7CB97A091963EBA600C5C701 /* KaiGLFragmentShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGLFragmentShader.h; path = KaiLib/KaiGL/KaiGLFragmentShader.h; sourceTree = SOURCE_ROOT; };
+		7CB97A0A1963EBA600C5C701 /* KaiGLFragmentShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KaiGLFragmentShader.m; path = KaiLib/KaiGL/KaiGLFragmentShader.m; sourceTree = SOURCE_ROOT; };
+		7CB97A0B1963EBA600C5C701 /* KaiGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGLShader.h; path = KaiLib/KaiGL/KaiGLShader.h; sourceTree = SOURCE_ROOT; };
+		7CB97A0C1963EBA600C5C701 /* KaiGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KaiGLShader.m; path = KaiLib/KaiGL/KaiGLShader.m; sourceTree = SOURCE_ROOT; };
+		7CB97A0D1963EBA600C5C701 /* KaiGLShaderInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGLShaderInput.h; path = KaiLib/KaiGL/KaiGLShaderInput.h; sourceTree = SOURCE_ROOT; };
+		7CB97A0E1963EBA600C5C701 /* KaiGLShaderInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KaiGLShaderInput.m; path = KaiLib/KaiGL/KaiGLShaderInput.m; sourceTree = SOURCE_ROOT; };
+		7CB97A0F1963EBA600C5C701 /* KaiGLVertexShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KaiGLVertexShader.h; path = KaiLib/KaiGL/KaiGLVertexShader.h; sourceTree = SOURCE_ROOT; };
+		7CB97A101963EBA600C5C701 /* KaiGLVertexShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KaiGLVertexShader.m; path = KaiLib/KaiGL/KaiGLVertexShader.m; sourceTree = SOURCE_ROOT; };
+		7CB97A291963EFAD00C5C701 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7CC3BDCF19A87B340084F898 /* UIActivityViewController+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActivityViewController+KaiLib.h"; path = "KaiLib/KaiCategory/UIActivityViewController+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CC3BDD019A87B340084F898 /* UIActivityViewController+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActivityViewController+KaiLib.m"; path = "KaiLib/KaiCategory/UIActivityViewController+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CCDA74E19615DEB00D8A6DE /* libKaiLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKaiLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCDA75119615DEB00D8A6DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CCDA75519615DEB00D8A6DE /* KaiLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaiLib-Prefix.pch"; sourceTree = "<group>"; };
+		7CCDA75619615DEB00D8A6DE /* KaiLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaiLib.h; sourceTree = "<group>"; };
+		7CCDA78C19615EFC00D8A6DE /* KaiCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiCommon.h; sourceTree = "<group>"; };
+		7CCDA78D19615EFC00D8A6DE /* KaiCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiCommon.m; sourceTree = "<group>"; };
+		7CCDA78E19615EFC00D8A6DE /* KaiDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiDBManager.h; sourceTree = "<group>"; };
+		7CCDA78F19615EFC00D8A6DE /* KaiDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiDBManager.m; sourceTree = "<group>"; };
+		7CCDA79019615EFC00D8A6DE /* KaiFPSCountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiFPSCountManager.h; sourceTree = "<group>"; };
+		7CCDA79119615EFC00D8A6DE /* KaiFPSCountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiFPSCountManager.m; sourceTree = "<group>"; };
+		7CCDA79219615EFC00D8A6DE /* KaiImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiImage.h; sourceTree = "<group>"; };
+		7CCDA79319615EFC00D8A6DE /* KaiImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiImage.m; sourceTree = "<group>"; };
+		7CCDA79619615EFC00D8A6DE /* KaiLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiLocale.h; sourceTree = "<group>"; };
+		7CCDA79719615EFC00D8A6DE /* KaiLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiLocale.m; sourceTree = "<group>"; };
+		7CCDA79819615EFC00D8A6DE /* KaiRandomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiRandomManager.h; sourceTree = "<group>"; };
+		7CCDA79919615EFC00D8A6DE /* KaiRandomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiRandomManager.m; sourceTree = "<group>"; };
+		7CCDA79A19615EFC00D8A6DE /* KaiSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiSingleton.h; sourceTree = "<group>"; };
+		7CCDA79B19615EFC00D8A6DE /* KaiSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiSingleton.m; sourceTree = "<group>"; };
+		7CCDA79C19615EFC00D8A6DE /* KaiSysLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiSysLogManager.h; sourceTree = "<group>"; };
+		7CCDA79D19615EFC00D8A6DE /* KaiSysLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiSysLogManager.m; sourceTree = "<group>"; };
+		7CCDA79E19615EFC00D8A6DE /* KaiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiThread.h; sourceTree = "<group>"; };
+		7CCDA79F19615EFC00D8A6DE /* KaiThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiThread.m; sourceTree = "<group>"; };
+		7CCDA7A119615EFC00D8A6DE /* KaiWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiWeb.h; sourceTree = "<group>"; };
+		7CCDA7A219615EFC00D8A6DE /* KaiWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiWeb.m; sourceTree = "<group>"; };
+		7CCDA7C919615F3600D8A6DE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7CD6A5EF19A0AA9E00A11645 /* UIFont+KaiLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+KaiLib.h"; path = "KaiLib/KaiCategory/UIFont+KaiLib.h"; sourceTree = SOURCE_ROOT; };
+		7CD6A5F019A0AA9E00A11645 /* UIFont+KaiLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+KaiLib.m"; path = "KaiLib/KaiCategory/UIFont+KaiLib.m"; sourceTree = SOURCE_ROOT; };
+		7CDDD0A21A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		7CDDD0A31A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		7CDDD0A41A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KaiTextFieldTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCDA74B19615DEB00D8A6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB97A2A1963EFAD00C5C701 /* QuartzCore.framework in Frameworks */,
+				7CB979E31963E1DD00C5C701 /* UIKit.framework in Frameworks */,
+				7CB979E11963E1C500C5C701 /* CoreData.framework in Frameworks */,
+				7CCDA7CA19615F3600D8A6DE /* GLKit.framework in Frameworks */,
+				7CCDA75219615DEB00D8A6DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCDA74519615DEB00D8A6DE = {
+			isa = PBXGroup;
+			children = (
+				7CCDA75319615DEB00D8A6DE /* KaiLib */,
+				7CCDA75019615DEB00D8A6DE /* Frameworks */,
+				7CCDA74F19615DEB00D8A6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCDA74F19615DEB00D8A6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCDA74E19615DEB00D8A6DE /* libKaiLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCDA75019615DEB00D8A6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB97A291963EFAD00C5C701 /* QuartzCore.framework */,
+				7CB979E21963E1DD00C5C701 /* UIKit.framework */,
+				7CB979E01963E1C500C5C701 /* CoreData.framework */,
+				7CCDA7C919615F3600D8A6DE /* GLKit.framework */,
+				7CCDA75119615DEB00D8A6DE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCDA75319615DEB00D8A6DE /* KaiLib */ = {
+			isa = PBXGroup;
+			children = (
+				7CCDA77719615EFC00D8A6DE /* KaiCategory */,
+				7CCDA7A319615EFC00D8A6DE /* KaiGL */,
+				7CCDA75619615DEB00D8A6DE /* KaiLib.h */,
+				7C9E4CF41980B90400A98486 /* KaiTypes.h */,
+				7CCDA78C19615EFC00D8A6DE /* KaiCommon.h */,
+				7CCDA78D19615EFC00D8A6DE /* KaiCommon.m */,
+				7C94E385197A771C00F9467E /* KaiArchiveManager.h */,
+				7C94E386197A771C00F9467E /* KaiArchiveManager.m */,
+				7CCDA78E19615EFC00D8A6DE /* KaiDBManager.h */,
+				7CCDA78F19615EFC00D8A6DE /* KaiDBManager.m */,
+				7CCDA79019615EFC00D8A6DE /* KaiFPSCountManager.h */,
+				7CCDA79119615EFC00D8A6DE /* KaiFPSCountManager.m */,
+				7CCDA79219615EFC00D8A6DE /* KaiImage.h */,
+				7CCDA79319615EFC00D8A6DE /* KaiImage.m */,
+				7CCDA79619615EFC00D8A6DE /* KaiLocale.h */,
+				7CCDA79719615EFC00D8A6DE /* KaiLocale.m */,
+				7CCDA79819615EFC00D8A6DE /* KaiRandomManager.h */,
+				7CCDA79919615EFC00D8A6DE /* KaiRandomManager.m */,
+				7CCDA79A19615EFC00D8A6DE /* KaiSingleton.h */,
+				7CCDA79B19615EFC00D8A6DE /* KaiSingleton.m */,
+				7CCDA79C19615EFC00D8A6DE /* KaiSysLogManager.h */,
+				7CCDA79D19615EFC00D8A6DE /* KaiSysLogManager.m */,
+				7CCDA79E19615EFC00D8A6DE /* KaiThread.h */,
+				7CCDA79F19615EFC00D8A6DE /* KaiThread.m */,
+				7CCDA7A119615EFC00D8A6DE /* KaiWeb.h */,
+				7CCDA7A219615EFC00D8A6DE /* KaiWeb.m */,
+				7C89979C197AA8030066514A /* KaiApplicationDelegateNotificationCenter.h */,
+				7C89979D197AA8030066514A /* KaiApplicationDelegateNotificationCenter.m */,
+				7C93AB30197CF9E700959085 /* KaiViewControllerProtocol.h */,
+				7C80C05619A1C5EF00513112 /* KaiTableViewStyleDefaultCell.h */,
+				7C80C05719A1C5EF00513112 /* KaiTableViewStyleDefaultCell.m */,
+				7C80C04A19A1C2A100513112 /* KaiTableViewStyleValue1Cell.h */,
+				7C80C04B19A1C2A100513112 /* KaiTableViewStyleValue1Cell.m */,
+				7C80C04E19A1C44600513112 /* KaiTableViewStyleValue2Cell.h */,
+				7C80C04F19A1C44600513112 /* KaiTableViewStyleValue2Cell.m */,
+				7C80C05119A1C4B100513112 /* KaiTableViewStyleSubtitleCell.h */,
+				7C80C05219A1C4B100513112 /* KaiTableViewStyleSubtitleCell.m */,
+				7CDDD0A21A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.h */,
+				7CDDD0A31A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.m */,
+				7CDDD0A41A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.xib */,
+				7CCDA75419615DEB00D8A6DE /* Supporting Files */,
+			);
+			path = KaiLib;
+			sourceTree = "<group>";
+		};
+		7CCDA75419615DEB00D8A6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCDA75519615DEB00D8A6DE /* KaiLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCDA77719615EFC00D8A6DE /* KaiCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7CB979EA1963EB8B00C5C701 /* KaiCategory.h */,
+				7CB979EB1963EB8B00C5C701 /* NSArray+KaiLib.h */,
+				7CB979EC1963EB8B00C5C701 /* NSArray+KaiLib.m */,
+				7CB979ED1963EB8B00C5C701 /* NSString+KaiLib.h */,
+				7CB979EE1963EB8B00C5C701 /* NSString+KaiLib.m */,
+				7C4F799F19687728006EFE53 /* NSNumber+KaiLib.h */,
+				7C4F79A019687728006EFE53 /* NSNumber+KaiLib.m */,
+				7CB979EF1963EB8B00C5C701 /* UIBarItem+KaiLib.h */,
+				7CB979F01963EB8B00C5C701 /* UIBarItem+KaiLib.m */,
+				7CB979F11963EB8B00C5C701 /* UIColor+KaiLib.h */,
+				7CB979F21963EB8B00C5C701 /* UIColor+KaiLib.m */,
+				7CD6A5EF19A0AA9E00A11645 /* UIFont+KaiLib.h */,
+				7CD6A5F019A0AA9E00A11645 /* UIFont+KaiLib.m */,
+				7CB979F31963EB8B00C5C701 /* UIImage+KaiLib.h */,
+				7CB979F41963EB8B00C5C701 /* UIImage+KaiLib.m */,
+				7CB979F51963EB8B00C5C701 /* UITableView+KaiLib.h */,
+				7CB979F61963EB8B00C5C701 /* UITableView+KaiLib.m */,
+				7CB979F71963EB8B00C5C701 /* UIView+KaiLib.h */,
+				7CB979F81963EB8B00C5C701 /* UIView+KaiLib.m */,
+				7CB979F91963EB8B00C5C701 /* UIViewController+KaiLib.h */,
+				7CB979FA1963EB8B00C5C701 /* UIViewController+KaiLib.m */,
+				7CB979FB1963EB8B00C5C701 /* UIWebView+KaiLib.h */,
+				7CB979FC1963EB8B00C5C701 /* UIWebView+KaiLib.m */,
+				7CC3BDCF19A87B340084F898 /* UIActivityViewController+KaiLib.h */,
+				7CC3BDD019A87B340084F898 /* UIActivityViewController+KaiLib.m */,
+			);
+			name = KaiCategory;
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7CCDA7A319615EFC00D8A6DE /* KaiGL */ = {
+			isa = PBXGroup;
+			children = (
+				7CB97A061963EBA600C5C701 /* KaiGL.h */,
+				7CB97A071963EBA600C5C701 /* KaiGLCommon.h */,
+				7CB97A081963EBA600C5C701 /* KaiGLCommon.m */,
+				7CB97A091963EBA600C5C701 /* KaiGLFragmentShader.h */,
+				7CB97A0A1963EBA600C5C701 /* KaiGLFragmentShader.m */,
+				7CB97A0B1963EBA600C5C701 /* KaiGLShader.h */,
+				7CB97A0C1963EBA600C5C701 /* KaiGLShader.m */,
+				7CB97A0D1963EBA600C5C701 /* KaiGLShaderInput.h */,
+				7CB97A0E1963EBA600C5C701 /* KaiGLShaderInput.m */,
+				7CB97A0F1963EBA600C5C701 /* KaiGLVertexShader.h */,
+				7CB97A101963EBA600C5C701 /* KaiGLVertexShader.m */,
+			);
+			name = KaiGL;
+			path = OpenGLES;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCDA74D19615DEB00D8A6DE /* KaiLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCDA77119615DEB00D8A6DE /* Build configuration list for PBXNativeTarget "KaiLib" */;
+			buildPhases = (
+				7CCDA74A19615DEB00D8A6DE /* Sources */,
+				7CCDA74B19615DEB00D8A6DE /* Frameworks */,
+				7CCDA74C19615DEB00D8A6DE /* Copy Files - KaiLib headers */,
+				7CB979771963D7FB00C5C701 /* Copy Files - Category headers */,
+				7CB9798C1963D8DA00C5C701 /* Copy Files - OpenGLES headers */,
+				7C74913B1A79E0FB000BD879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaiLib;
+			productName = KaiLib;
+			productReference = 7CCDA74E19615DEB00D8A6DE /* libKaiLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCDA74619615DEB00D8A6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TonosakiDaisuke;
+			};
+			buildConfigurationList = 7CCDA74919615DEB00D8A6DE /* Build configuration list for PBXProject "KaiLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CCDA74519615DEB00D8A6DE;
+			productRefGroup = 7CCDA74F19615DEB00D8A6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCDA74D19615DEB00D8A6DE /* KaiLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C74913B1A79E0FB000BD879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C74913C1A79E10D000BD879 /* KaiTextFieldTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCDA74A19615DEB00D8A6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCDA7BC19615EFC00D8A6DE /* KaiImage.m in Sources */,
+				7CB97A021963EB8B00C5C701 /* UITableView+KaiLib.m in Sources */,
+				7CD6A5F119A0AA9E00A11645 /* UIFont+KaiLib.m in Sources */,
+				7CCDA7C319615EFC00D8A6DE /* KaiWeb.m in Sources */,
+				7CCDA7BB19615EFC00D8A6DE /* KaiFPSCountManager.m in Sources */,
+				7CB97A011963EB8B00C5C701 /* UIImage+KaiLib.m in Sources */,
+				7C4F79A119687728006EFE53 /* NSNumber+KaiLib.m in Sources */,
+				7C80C05819A1C5EF00513112 /* KaiTableViewStyleDefaultCell.m in Sources */,
+				7CCDA7B919615EFC00D8A6DE /* KaiCommon.m in Sources */,
+				7CB97A121963EBA600C5C701 /* KaiGLFragmentShader.m in Sources */,
+				7CC3BDD119A87B340084F898 /* UIActivityViewController+KaiLib.m in Sources */,
+				7CB979FE1963EB8B00C5C701 /* NSString+KaiLib.m in Sources */,
+				7CCDA7C019615EFC00D8A6DE /* KaiSingleton.m in Sources */,
+				7CB97A111963EBA600C5C701 /* KaiGLCommon.m in Sources */,
+				7CB979FD1963EB8B00C5C701 /* NSArray+KaiLib.m in Sources */,
+				7C94E387197A771C00F9467E /* KaiArchiveManager.m in Sources */,
+				7C80C05319A1C4B100513112 /* KaiTableViewStyleSubtitleCell.m in Sources */,
+				7C80C05019A1C44600513112 /* KaiTableViewStyleValue2Cell.m in Sources */,
+				7CB97A141963EBA600C5C701 /* KaiGLShaderInput.m in Sources */,
+				7CB97A151963EBA600C5C701 /* KaiGLVertexShader.m in Sources */,
+				7CB97A031963EB8B00C5C701 /* UIView+KaiLib.m in Sources */,
+				7CB97A131963EBA600C5C701 /* KaiGLShader.m in Sources */,
+				7CCDA7BF19615EFC00D8A6DE /* KaiRandomManager.m in Sources */,
+				7CCDA7BA19615EFC00D8A6DE /* KaiDBManager.m in Sources */,
+				7C89979E197AA8030066514A /* KaiApplicationDelegateNotificationCenter.m in Sources */,
+				7CDDD0A51A77CF9D00F0FE58 /* KaiTextFieldTableViewCell.m in Sources */,
+				7CB97A001963EB8B00C5C701 /* UIColor+KaiLib.m in Sources */,
+				7C80C04C19A1C2A100513112 /* KaiTableViewStyleValue1Cell.m in Sources */,
+				7CB979FF1963EB8B00C5C701 /* UIBarItem+KaiLib.m in Sources */,
+				7CB97A041963EB8B00C5C701 /* UIViewController+KaiLib.m in Sources */,
+				7CCDA7C219615EFC00D8A6DE /* KaiThread.m in Sources */,
+				7CCDA7C119615EFC00D8A6DE /* KaiSysLogManager.m in Sources */,
+				7CCDA7BE19615EFC00D8A6DE /* KaiLocale.m in Sources */,
+				7CB97A051963EB8B00C5C701 /* UIWebView+KaiLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CCDA76F19615DEB00D8A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "${BUILT_PRODUCTS_DIR}";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "${TARGET_NAME}";
+				SDKROOT = iphoneos7.1;
+			};
+			name = Debug;
+		};
+		7CCDA77019615DEB00D8A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "${BUILT_PRODUCTS_DIR}";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PUBLIC_HEADERS_FOLDER_PATH = "${TARGET_NAME}";
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCDA77219615DEB00D8A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KaiLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaiLib/KaiLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7CCDA77319615DEB00D8A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KaiLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaiLib/KaiLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCDA74919615DEB00D8A6DE /* Build configuration list for PBXProject "KaiLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCDA76F19615DEB00D8A6DE /* Debug */,
+				7CCDA77019615DEB00D8A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCDA77119615DEB00D8A6DE /* Build configuration list for PBXNativeTarget "KaiLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCDA77219615DEB00D8A6DE /* Debug */,
+				7CCDA77319615DEB00D8A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCDA74619615DEB00D8A6DE /* Project object */;
+}
