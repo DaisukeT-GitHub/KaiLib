@@ -425,7 +425,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = TonosakiDaisuke;
+				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 7CCDA74919615DEB00D8A6DE /* Build configuration list for PBXProject "KaiLib" */;
 			compatibilityVersion = "Xcode 3.2";
